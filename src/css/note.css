@@ -1,0 +1,13 @@
+.note-text {
+    height: 15rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 5px 5px 0 0;
+    overflow: auto;
+  }
+.note-text h3 {
+  margin-bottom: 1rem;
+}
+.note-text p {
+  white-space: pre-wrap;
+}

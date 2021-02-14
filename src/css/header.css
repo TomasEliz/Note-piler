@@ -1,0 +1,26 @@
+header {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    font-family: 'Roboto Slab', serif;
+    color: tomato;
+    background-color: rgb(59, 59, 59);
+  }
+  .fake-input {
+    width: 80%;
+    height: fit-content;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 1.5rem 2rem;
+    color: rgba(59, 59, 59, 0.6);
+    background-color: #efefef;
+    border-radius: 5px;
+  }
+  @media screen and (min-width:1025px) {
+    .fake-input {
+      width: 50%;
+    }
+  }

@@ -1,0 +1,22 @@
+.modal {
+    position: absolute;
+    height: fit-content;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+    border: 1px solid #ccc;
+    background: rgb(59, 59, 59);
+    overflow: auto;
+    border-radius: 5px;
+    outline: none;
+    padding: 20px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  @media screen and (min-width:1025px) {
+    .modal {
+      width: 50%;
+      left: 25%;
+    }
+  }
