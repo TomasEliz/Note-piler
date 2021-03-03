@@ -1,5 +1,5 @@
 # Note-piler
-#### [React Redux, CSS]
+#### [React, React-Redux, CSS3]
 
 Note Piler is a simple CRUD app created in order to learn/practice managing state using Redux. 
 
